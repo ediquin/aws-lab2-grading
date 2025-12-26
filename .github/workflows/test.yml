@@ -34,6 +34,6 @@ jobs:
     
     - name: Run pytest tests
       run: |
-        pytest -v tests/
+        pytest -v test_lab2.py
       env:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
